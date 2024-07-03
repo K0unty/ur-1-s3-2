@@ -1,6 +1,7 @@
 // Importing images
 // import headImg1 from "https://i.ibb.co/HB8T6tX/image.png";
 import headImg2 from "./assets/react-core-concepts.png";
+import componentsImg from "./assets/components.png";
 
 // Dynamic Content array
 const reactDescriptions = [
@@ -31,13 +32,33 @@ function Header() {
   );
 }
 
+// Props test
+function CoreConcept(props) {
+  return (
+    <li>
+      <img src={props.image} alt={props.title} />
+      <h3>{props.title}</h3>
+      <p>{props.description}</p>
+    </li>
+  );
+}
+
 // Main App entry point
 function App() {
   return (
     <div>
       <Header />
       <main>
-        <h2>Time to get started!</h2>
+        <section id="core-concepts">
+          <h2>Core Concepts</h2>
+          <ul>
+            <CoreConcept
+              title="Components"
+              description="CoreUI"
+              image="https://i.ibb.co/vjMxFg7/image.png"
+            />
+          </ul>
+        </section>
       </main>
     </div>
   );
