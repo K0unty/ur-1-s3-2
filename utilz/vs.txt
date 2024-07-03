@@ -1,4 +1,4 @@
-// Prettier , Indent Rainbow , Error Lens, Color , Typescript , Icons , Obsidian Theme , Mayuki theme
+// Prettier , Indent Rainbow , Error Lens, Color , Typescript , Icons , Obsidian Theme , Mayuki theme, Import Cost , ES7 React Snippets
 {
   "workbench.list.smoothScrolling": true,
   "editor.smoothScrolling": true,
