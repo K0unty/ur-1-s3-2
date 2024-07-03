@@ -1,3 +1,6 @@
+// Importing images
+// import headImg1 from "https://i.ibb.co/HB8T6tX/image.png";
+
 // Dynamic Content array
 const reactDescriptions = [
   "🍑BootySniff",
