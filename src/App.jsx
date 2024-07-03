@@ -1,5 +1,6 @@
 // Importing images
 // import headImg1 from "https://i.ibb.co/HB8T6tX/image.png";
+import headImg2 from "./assets/react-core-concepts.png";
 
 // Dynamic Content array
 const reactDescriptions = [
@@ -20,6 +21,7 @@ function Header() {
   return (
     <header>
       <img src="https://i.ibb.co/HB8T6tX/image.png" alt="Stylized atom" />
+      <img src={headImg2} alt="Stylized atom" />
       <h1>Weapon Essentials</h1>
       <p>
         <span className="dynamic-text">{firstWord}</span>
