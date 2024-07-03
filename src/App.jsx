@@ -20,7 +20,7 @@ function Header() {
 
   return (
     <header>
-      <img src="https://i.ibb.co/HB8T6tX/image.png" alt="Stylized atom" />
+      <img src="https://i.ibb.co/HB8T6tX/image.png" alt="boty" />
       <img src={headImg2} alt="Stylized atom" />
       <h1>Weapon Essentials</h1>
       <p>
