@@ -12,14 +12,14 @@ function getRandomInt(max) {
 
 // Header Function which you defined
 function Header() {
+  const firstWord = reactDescriptions[getRandomInt(4)];
+
   return (
     <header>
       <img src="https://i.ibb.co/HB8T6tX/image.png" alt="Stylized atom" />
       <h1>Weapon Essentials</h1>
       <p>
-        <span className="dynamic-text">
-          {reactDescriptions[getRandomInt(4)]}
-        </span>
+        <span className="dynamic-text">{firstWord}</span>
         concepts you will need for almost any app you are going to build!
       </p>
     </header>
