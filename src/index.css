@@ -144,6 +144,12 @@ main h2 {
   width: 6rem;
   object-fit: cover;
   border-radius: 100px;
+  transition: all 400ms;
+}
+#core-concepts li img:hover {
+  transform: scale(1.5); /* This will scale the image to 1.1 times its size */
+  cursor: pointer;
+  filter: hue-rotate(100deg);
 }
 
 #core-concepts li h3 {
