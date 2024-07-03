@@ -96,7 +96,7 @@ header h1 {
 header p {
   margin: 0;
   font-size: 1.25rem;
-  color: #64b095;
+  color: #f72798;
   font-family: "Exo 2", sans-serif;
 }
 
@@ -117,7 +117,7 @@ main h2 {
   text-align: center;
   font-family: "Exo 2", sans-serif;
   margin: 0 0 1.5rem 0;
-  color: #8aba9c;
+  color: #f72798;
 }
 
 #core-concepts ul {
