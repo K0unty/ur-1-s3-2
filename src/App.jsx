@@ -1,17 +1,7 @@
 // Importing images
 import { CORE_CONCEPTS } from "./data.js";
 import Header from "./components/Header.jsx";
-
-// Props test
-function CoreConcept({ image, title, description }) {
-  return (
-    <li>
-      <img src={image} alt={title} />
-      <h3>{title}</h3>
-      <p>{description}</p>
-    </li>
-  );
-}
+import { CoreConcept } from "./components/CoreConcept.jsx";
 
 // Main App entry point
 function App() {
