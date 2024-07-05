@@ -34,8 +34,6 @@ html {
   z-index: -1; /* make sure it's behind the content */
 }
 
-
-
 main {
   width: 90%;
   max-width: 50rem;
