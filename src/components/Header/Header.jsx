@@ -1,5 +1,8 @@
 // import headImg1 from "https://i.ibb.co/HB8T6tX/image.png";
-import headImg2 from "../assets/react-core-concepts.png";
+import headImg2 from "../../assets/react-core-concepts.png";
+
+// importing css - Code taken from index.css and in Header.css
+import "./Header.css";
 
 // Dynamic Content array
 const reactDescriptions = [

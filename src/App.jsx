@@ -1,6 +1,6 @@
 // Importing images
 import { CORE_CONCEPTS } from "./data.js";
-import Header from "./components/Header.jsx";
+import Header from "./components/Header/Header.jsx";
 import { CoreConcept } from "./components/CoreConcept.jsx";
 
 // Main App entry point
