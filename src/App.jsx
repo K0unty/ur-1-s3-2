@@ -6,10 +6,12 @@ import TabButton from "./components/TabButton.jsx";
 
 // Main App entry point
 function App() {
+  let tabContent = "Click Buta";
+
   // onSelect Function exported from TabButton.js
   function handleSelect(selectedButton) {
     // selectedButton => 'components', 'jsx', 'props', 'state'
-    console.log(selectedButton);
+    tabContent = selectedButton;
   }
 
   return (
@@ -39,7 +41,7 @@ function App() {
             <TabButton onSelect={() => handleSelect("Props")}>Props</TabButton>
             <TabButton onSelect={() => handleSelect("State")}>State</TabButton>
           </menu>
-          Dynami Component
+          {tabContent}
         </section>
       </main>
     </div>
