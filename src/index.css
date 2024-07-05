@@ -110,7 +110,7 @@ main h2 {
   padding: 0.5rem 1rem;
   border: none;
   border-radius: 6px;
-  background-color: transparent;
+  background-color: #1c0a2f;
   color: #a18aba;
   font-family: "Exo 2", sans-serif;
   font-size: 1rem;
@@ -119,7 +119,7 @@ main h2 {
 }
 
 #examples menu button:hover {
-  background-color: #1b082f;
+  background-color: #38135f;
   color: #ebe7ef;
 }
 
