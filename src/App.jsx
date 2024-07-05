@@ -6,6 +6,11 @@ import TabButton from "./components/TabButton.jsx";
 
 // Main App entry point
 function App() {
+  // onSelect Function exported from TabButton.js
+  function handleSelect() {
+    console.log("Hello World - Selected👄");
+  }
+
   return (
     <div>
       <Header />
@@ -26,11 +31,12 @@ function App() {
         <section id="examples">
           <h2>Examples</h2>
           <menu>
-            <TabButton> Components </TabButton>
-            <TabButton> JSX </TabButton>
-            <TabButton> Props </TabButton>
-            <TabButton> State </TabButton>
+            <TabButton onSelect={handleSelect}> Components </TabButton>
+            <TabButton onSelect={handleSelect}> JSX </TabButton>
+            <TabButton onSelect={handleSelect}> Props </TabButton>
+            <TabButton onSelect={handleSelect}> State </TabButton>
           </menu>
+          Dynami Component
         </section>
       </main>
     </div>
