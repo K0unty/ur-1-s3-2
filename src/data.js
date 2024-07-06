@@ -30,6 +30,7 @@ export const CORE_CONCEPTS = [
   },
 ];
 
+// Note this data matches the tab component names in app.jsx
 export const EXAMPLES = {
   components: {
     title: "Components",
