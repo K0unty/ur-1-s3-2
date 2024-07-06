@@ -9,7 +9,7 @@ import { EXAMPLES } from "./data.js";
 
 // Main App entry point
 function App() {
-  const [selectedTopic, setSelectedTopic] = useState("components");
+  const [selectedTopic, setSelectedTopic] = useState();
 
   // onSelect Function exported from TabButton.js
   function handleSelect(selectedButton) {
@@ -47,13 +47,16 @@ function App() {
             <TabButton onSelect={() => handleSelect("props")}>Props</TabButton>
             <TabButton onSelect={() => handleSelect("state")}>State</TabButton>
           </menu>
-          <div id="tab-content">
-            <h3>{EXAMPLES[selectedTopic].title}</h3>
-            <p>{EXAMPLES[selectedTopic].description}</p>
-            <pre>
-              <code>{EXAMPLES[selectedTopic].code}</code>
-            </pre>
-          </div>
+          {!selectedTopic && <p>Select Somethign Fukr😡</p>}
+          {selectedTopic && (
+            <div id="tab-content">
+              <h3>{EXAMPLES[selectedTopic].title}</h3>
+              <p>{EXAMPLES[selectedTopic].description}</p>
+              <pre>
+                <code>{EXAMPLES[selectedTopic].code}</code>
+              </pre>
+            </div>
+          )}
         </section>
       </main>
     </div>
